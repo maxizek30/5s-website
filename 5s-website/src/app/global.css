@@ -1,0 +1,72 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  --background-color: #845ec2;
+  --background-start: #f9f871;
+  --background-end: #845ec2;
+}
+h1 {
+  font-size: 124px;
+  font-style: italic;
+  font-weight: 200;
+}
+h2 {
+  font-size: 84px;
+  font-style: italic;
+  font-weight: 200;
+}
+h3 {
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 200;
+}
+h4 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+p {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 100;
+}
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+ul,
+li {
+  /* reset the margin and padding */
+  margin: 0;
+  padding: 0;
+}
