@@ -1,44 +1,29 @@
+.bodyContainer {
+  background: linear-gradient(to bottom, #fffbf5, #fd4556);
+}
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to bottom, #f9f871, #845ec2);
   height: 100vh;
 }
+
 .children {
   display: flex;
   flex-direction: column;
-  width: 95%;
-  height: 90vh;
-  background-color: rgba(255, 255, 255, 0.313);
-  border-radius: 25px;
-  border: 1px solid black;
+  padding: 20px;
+  width: 92%;
+  height: 85%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.214),
+    rgba(255, 255, 255, 0.327)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: relative;
+  z-index: 2;
 }
-.grainOverlay {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/grain3.png");
-  background-size: cover;
-  opacity: 0.1;
-  z-index: -1;
-  pointer-events: none;
-  animation: grain-flicker 0.8s steps(5) infinite;
-}
-@keyframes grain-flicker {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100px 100px;
-  }
-}
-
-/**
-chrome: 
-color zilla
-color blindly
-*/

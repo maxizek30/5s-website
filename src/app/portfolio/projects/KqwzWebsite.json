@@ -1,0 +1,12 @@
+{
+  "id": "KqwzWebsite",
+  "title": "KQWZ Website",
+  "isGroupProject": true,
+  "shortDescription": "Website for One America Voice",
+  "longDescription": "Website for OneAmericaVoice",
+  "technologies": ["React", "Material-UI", "Netlify"],
+  "githubLink": "https://github.com/maxizek30/KQWZ-Site",
+  "liveLink": "https://kqwzradio.org/",
+  "thumbnail": "/thumbnails/OneAmericaVoiceWebsite.png",
+  "thumbnailAlt": "OneAmericaVoice Website Thumbnail"
+}

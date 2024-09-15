@@ -9,3 +9,6 @@
   align-items: flex-end;
   gap: 12px;
 }
+.projectItem:hover {
+  opacity: 0.78;
+}

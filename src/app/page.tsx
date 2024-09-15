@@ -4,12 +4,16 @@ export default function Page() {
   return (
     <div className={styles.homeContainer}>
       <h1>Welcome.</h1>
-      <p>
-        My name is Max Lopez.Lorem ipsum, or lipsum as it is sometimes known, is
-        dummy text used in laying out print, graphic or web designs. The passage
-        is attributed to an unknown typesetter in the 15th century who is
-        thought to have scrambled parts of Cicero's De Finibus Bonorum et M
-      </p>
+      <div className={styles.descriptionContainer}>
+        <div className={styles.descriptionBar} />
+        <p>
+          My name is Max Lopez, a sophomore at Pacific Lutheran University
+          majoring in Computer Science. Eager to dive deep into the world of
+          technology, Im all about learning and applying foundational concepts,
+          exploring vast possibilities, and contributing to innovative
+          solutions.
+        </p>
+      </div>
     </div>
   );
 }

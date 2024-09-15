@@ -9,33 +9,35 @@ const Navigation = () => {
   const currentPath = usePathname();
   return (
     <nav className={styles.navigation}>
-      <h3>Max Lopez</h3>
+      <Link href="/">
+        <h2 style={{ fontSize: "4vw" }}>Max Lopez</h2>
+      </Link>
       <ul className={styles.links}>
         <li
-          className={`${styles.link} ${
+          className={`${styles.listItem} ${
             currentPath === "/" ? styles.active : ""
           }`}
         >
-          <Link href="/">
-            <h4>Home</h4>
+          <Link href="/" className={styles.link}>
+            <h4 className={styles.navText}>Home</h4>
           </Link>
         </li>
         <li
-          className={`${styles.link} ${
+          className={`${styles.listItem} ${
             currentPath.startsWith("/portfolio") ? styles.active : ""
           }`}
         >
-          <Link href="/portfolio">
-            <h4>Portfolio</h4>
+          <Link href="/portfolio" className={styles.link}>
+            <h4 className={styles.navText}>Portfolio</h4>
           </Link>
         </li>
         <li
-          className={`${styles.link} ${
+          className={`${styles.listItem} ${
             currentPath === "/contact" ? styles.active : ""
           }`}
         >
-          <Link href="/contact">
-            <h4>Contact</h4>
+          <Link href="/contact" className={styles.link}>
+            <h4 className={styles.navText}>Contact</h4>
           </Link>
         </li>
       </ul>

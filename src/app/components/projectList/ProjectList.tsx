@@ -13,8 +13,10 @@ const ProjectList: React.FC<ProjectListProps> = ({ projects }) => {
           key={project.id}
           className={styles.projectItem}
         >
-          <h2>{project.title}</h2>
-          <p>{project.subtitle}</p>
+          <h2 style={{ color: "#FD4556", textAlign: "end" }}>
+            {project.title}
+          </h2>
+          <p style={{ textAlign: "end" }}>{project.shortDescription}</p>
         </Link>
       ))}
     </div>
