@@ -12,16 +12,16 @@
 }
 
 .headerContainer {
-  border: black 1.5px solid;
+  border: var(--border-color) 1.5px solid;
   border-radius: 20px;
-  background-color: #fd45573f;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 12%;
+  background-color: var(--bento-item);
 }
 .imageContainer {
-  border: black 1.5px solid;
+  border: var(--border-color) 1.5px solid;
   height: 64%;
   border-radius: 20px;
   overflow: hidden;
@@ -49,7 +49,8 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  border: black 1.5px solid;
+  border: var(--border-color) 1.5px solid;
+  background-color: var(--bento-item);
 }
 .rightSide {
   flex: 1;
@@ -59,16 +60,17 @@
 }
 
 .descriptionContainer {
-  border: black 1.5px solid;
+  border: var(--border-color) 1.5px solid;
   border-radius: 20px;
   height: 32%;
   margin: 0;
   overflow-y: auto;
   padding: 15px;
+  background-color: var(--bento-item);
 }
 .githubContainer {
   height: 32%;
-  border: black 1.5px solid;
+  border: var(--border-color) 1.5px solid;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -76,27 +78,17 @@
   overflow: hidden; /* Ensure content doesn't overflow */
   padding: 0;
   margin: 0;
-  flex-shrink: 0; /* Prevent shrinking of container */
   cursor: pointer;
+  background-color: var(--bento-item);
 }
-.githubImage {
-  width: 60%;
-  transition: width 0.6s ease-in-out; /* Animation on width change */
-}
-.githubContainer:hover .githubImage {
-  width: 80%;
-}
-.linkImage {
-  width: 60%;
-  transition: width 0.6s ease-in-out; /* Animation on width change */
-}
-.linkContainer:hover .linkImage {
-  width: 80%;
+.githubIcon {
+  font-size: 20vw;
+  color: var(--text-color);
 }
 
 .linkContainer {
   height: 32%;
-  border: black 1.5px solid;
+  border: var(--border-color) 1.5px solid;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -106,4 +98,9 @@
   margin: 0;
   flex-shrink: 0; /* Prevent shrinking of container */
   cursor: pointer;
+  background-color: var(--bento-item);
+}
+.linkIcon {
+  font-size: 20vw;
+  color: var(--text-color);
 }

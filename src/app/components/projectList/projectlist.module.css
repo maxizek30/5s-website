@@ -9,6 +9,13 @@
   align-items: flex-end;
   gap: 12px;
 }
+.projectName {
+  color: var(--accent-color);
+  text-align: end;
+}
+.projectDescription {
+  text-align: end;
+}
 .projectItem:hover {
   opacity: 0.78;
 }

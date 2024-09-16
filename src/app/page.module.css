@@ -9,6 +9,6 @@
 }
 .descriptionBar {
   width: 20px;
-  background-color: #fd4556;
+  background-color: var(--accent-color);
   margin-left: 20px;
 }

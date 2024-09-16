@@ -1,3 +1,21 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  --background-color: #ffffff;
+  --accent-color: #3d58f2;
+  --text-color: #000000;
+  --bento-item: #eeeeee;
+  --border-color: grey;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0d0d0d;
+    --accent-color: #f2622e;
+    --text-color: #ffffff;
+    --bento-item: #1d1d1d;
+    --border-color: #ffffff00;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -8,13 +26,9 @@ li,
 p {
   margin: 0;
   padding: 0;
+  color: var(--text-color);
 }
-:root {
-  font-family: "Roboto", sans-serif;
-  --background-color: #845ec2;
-  --background-start: #f9f871;
-  --background-end: #845ec2;
-}
+
 button {
   background: none;
   color: inherit;

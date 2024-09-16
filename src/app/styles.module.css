@@ -1,5 +1,5 @@
 .bodyContainer {
-  background: linear-gradient(to bottom, #fffbf5, #fd4556);
+  background: var(--background-color);
 }
 .container {
   display: flex;
@@ -14,11 +14,7 @@
   padding: 20px;
   width: 92%;
   height: 85%;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.214),
-    rgba(255, 255, 255, 0.327)
-  );
+  background: var(--background-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;

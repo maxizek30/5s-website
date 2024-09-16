@@ -5,6 +5,9 @@ import { useEffect, useRef } from "react";
 import { Project } from "../../types/project";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectPageClient({ project }: { project: Project }) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -54,18 +57,10 @@ export default function ProjectPageClient({ project }: { project: Project }) {
           <p>{project.longDescription}</p>
         </div>
         <a className={styles.githubContainer} href={project.githubLink}>
-          <img
-            src="/logos/githubLogo.png"
-            alt="GitHub Logo"
-            className={styles.githubImage}
-          />
+          <FontAwesomeIcon icon={faGithub} className={styles.githubIcon} />
         </a>
         <a className={styles.linkContainer} href={project.liveLink}>
-          <img
-            src="/logos/globe.svg"
-            alt="GitHub Logo"
-            className={styles.linkImage}
-          />
+          <FontAwesomeIcon icon={faGlobe} className={styles.linkIcon} />
         </a>
       </div>
     </div>
