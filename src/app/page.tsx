@@ -7,11 +7,8 @@ export default function Page() {
       <div className={styles.descriptionContainer}>
         <div className={styles.descriptionBar} />
         <p>
-          My name is Max Lopez, a sophomore at Pacific Lutheran University
-          majoring in Computer Science. Eager to dive deep into the world of
-          technology, Im all about learning and applying foundational concepts,
-          exploring vast possibilities, and contributing to innovative
-          solutions.
+          My name is Max Lopez, a junior at Pacific Lutheran University majoring
+          in Computer Science.
         </p>
       </div>
     </div>

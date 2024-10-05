@@ -4,3 +4,15 @@
   align-items: flex-end;
   padding: 35px;
 }
+@media (max-width: 768px) {
+  /* Tablet */
+  .portfolioContainer {
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  /* Mobile */
+  .portfolioContainer {
+    padding: 10px;
+  }
+}

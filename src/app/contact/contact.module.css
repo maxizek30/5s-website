@@ -1,3 +1,11 @@
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
 .contactContainer {
   display: flex;
   justify-content: center;
@@ -7,12 +15,20 @@
 }
 .links {
   width: 30%;
+  animation: slide-in 200ms;
 }
 .links:hover {
   opacity: 0.9;
 }
 .icon {
-  color: var(--accent-color);
+  color: var(--text-color);
   width: 100%;
   height: 100%;
+}
+@media (max-width: 768px) {
+  /* Tablet */
+  .contactContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

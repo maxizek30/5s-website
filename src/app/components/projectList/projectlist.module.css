@@ -1,7 +1,16 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
 .projectListContainer {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  animation: slide-in 200ms;
 }
 .projectItem {
   display: flex;

@@ -1,17 +1,21 @@
 :root {
   font-family: "Roboto", sans-serif;
-  --background-color: #ffffff;
-  --accent-color: #3d58f2;
+  --background-color: #f2ede455;
+  --children-background: rgba(255, 255, 255, 0.195);
+  --accent-color: #5f7340;
   --text-color: #000000;
   --bento-item: #eeeeee;
-  --border-color: grey;
+  --bento-transparent: rgba(238, 238, 238, 0.7);
+  --border-color: rgba(191, 160, 160, 0);
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #0d0d0d;
-    --accent-color: #f2622e;
+    --children-background: rgba(0, 0, 0, 0.195);
+    --accent-color: #6f92bf;
     --text-color: #ffffff;
     --bento-item: #1d1d1d;
+    --bento-transparent: rgba(29, 29, 29, 0.7);
     --border-color: #ffffff00;
   }
 }

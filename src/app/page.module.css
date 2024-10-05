@@ -1,14 +1,42 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
 .homeContainer {
   width: 40%;
   padding: 15px;
+}
+.homeContainer h1 {
+  animation: slide-in 200ms;
 }
 .descriptionContainer {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  animation: slide-in 200ms;
 }
 .descriptionBar {
   width: 20px;
   background-color: var(--accent-color);
   margin-left: 20px;
+}
+@media (max-width: 768px) {
+  /* Tablet */
+  .homeContainer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile */
+  .homeContainer {
+    width: 90%;
+  }
+  .descriptionBar {
+    margin-left: 5px;
+  }
 }

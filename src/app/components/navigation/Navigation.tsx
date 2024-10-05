@@ -9,7 +9,7 @@ const Navigation = () => {
   const currentPath = usePathname();
   return (
     <nav className={styles.navigation}>
-      <Link href="/">
+      <Link href="/" className={styles.name}>
         <h2 style={{ fontSize: "4vw" }}>Max Lopez</h2>
       </Link>
       <ul className={styles.links}>
