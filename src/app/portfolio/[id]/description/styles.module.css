@@ -1,0 +1,49 @@
+.markdownContainer {
+  max-height: 100%;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+.markdownContainer h1,
+.markdownContainer h2,
+.markdownContainer h3,
+.markdownContainer h4,
+.markdownContainer h5,
+.markdownContainer h6,
+.markdownContainer p {
+  margin: initial; /* Restore default margins */
+  padding: initial; /* Restore default padding */
+}
+.markdownContainer h1 {
+  font-size: 6vw;
+  font-weight: 600;
+  text-align: center;
+}
+.markdownContainer h2 {
+  font-size: 3.8vw;
+  font-weight: 400;
+}
+.markdownContainer h3 {
+  font-size: 3.4vw;
+}
+.markdownContainer h4 {
+  font-size: 3vw;
+}
+.markdownContainer p {
+  font-size: 2vw;
+}
+.markdownContainer a {
+  color: var(--accent-color); /* Retain global link color */
+  text-decoration: underline; /* Restore underline for links */
+}
+.markdownContainer a:hover {
+  text-decoration: none; /* Optional: Remove underline on hover */
+}
+.markdownContainer ul,
+.markdownContainer ol {
+  list-style: initial; /* Restore default list styles */
+  margin: initial; /* Restore default margins */
+  padding-left: 40px; /* Add default padding */
+}
+.markdownContainer li {
+  margin-bottom: 0.5em; /* Add space between list items */
+}

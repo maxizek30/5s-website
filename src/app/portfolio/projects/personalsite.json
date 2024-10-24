@@ -1,0 +1,12 @@
+{
+  "id": "personalsite",
+  "title": "Personal Site V2",
+  "isGroupProject": false,
+  "shortDescription": "My current personal website",
+  "longDescription": "My current personal website created using React and NEXT.js for the PLU 5s summer program",
+  "technologies": ["React", "NEXT.js", "vercel"],
+  "githubLink": "https://github.com/maxizek30/5s-website",
+  "liveLink": "https://maxizek30.me/",
+  "thumbnail": "/thumbnails/personalsite.png",
+  "thumbnailAlt": "Personal Website Thumbnail"
+}

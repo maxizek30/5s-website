@@ -1,0 +1,12 @@
+{
+  "id": "sandplayground",
+  "title": "Sand Playground",
+  "isGroupProject": false,
+  "shortDescription": "A simple sandbox for playing with sand",
+  "longDescription": "A Sand Playground built using THREE.js and LilGui",
+  "technologies": ["Typescript", "Three.js"],
+  "githubLink": "https://github.com/maxizek30/sand-playground",
+  "liveLink": "https://maxizek30.github.io/sand-playground/",
+  "thumbnail": "/thumbnails/sandplayground.png",
+  "thumbnailAlt": "Sand playground thumbnail"
+}

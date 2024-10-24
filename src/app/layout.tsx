@@ -6,6 +6,7 @@ import styles from "./styles.module.css";
 import "./global.css";
 import Script from "next/script";
 import { useRef } from "react";
+declare var grained: any;
 
 export default function RootLayout({
   children,

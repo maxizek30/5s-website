@@ -1,0 +1,12 @@
+{
+  "id": "bitebattle",
+  "title": "Bite Battle",
+  "isGroupProject": false,
+  "shortDescription": "Gamified restaurant decision-making tool.",
+  "longDescription": "Bite Battle helps users decide where to eat by using a tournament-style selection process. Users can pit restaurants against each other to narrow down the best choice, making it fun and engaging to decide where to go for meals. Built using React, Material-UI, and Netlify.",
+  "technologies": ["React", "Netlify", "YelpFusion"],
+  "githubLink": "https://github.com/maxizek30/bite-battle",
+  "liveLink": "https://bitebattle.xyz/",
+  "thumbnail": "/thumbnails/bitebattle.png",
+  "thumbnailAlt": "Bite Battle Website Thumbnail"
+}

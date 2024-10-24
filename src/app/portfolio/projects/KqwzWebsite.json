@@ -1,7 +1,7 @@
 {
-  "id": "KqwzWebsite",
+  "id": "kqwzwebsite",
   "title": "KQWZ Website",
-  "isGroupProject": true,
+  "isGroupProject": false,
   "shortDescription": "Website for One America Voice",
   "longDescription": "Website for OneAmericaVoice",
   "technologies": ["React", "Material-UI", "Netlify"],
