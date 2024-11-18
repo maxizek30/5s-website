@@ -245,6 +245,7 @@
   .rightSide {
     flex-direction: row;
     width: 100%;
+    max-height: 40%;
     flex-wrap: wrap;
     gap: 2%;
   }
