@@ -59,7 +59,6 @@ export default function RootLayout({
             grainDensity: 2,
             grainWidth: 1.1,
             grainHeight: 1.1,
-            grainSpeed: 1.5,
           };
 
           grained("#grain-container", options);

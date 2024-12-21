@@ -6,6 +6,6 @@
   "longDescription": "StarBattleX is a platform for Star Battle challenges. It allows users to create and solve Star Battle puzzles. The platform provides a user-friendly interface for creating and solving puzzles. Users can create puzzles of different sizes and difficulty levels. The platform also provides a leaderboard for users to compete with each other.",
   "technologies": ["Java", "SpringBoot", "Docker", "JavaFx"],
   "githubLink": "https://github.com/levienk/StarBattleX",
-  "thumbnail": "/thumbnails/StarbattleX.png",
+  "thumbnail": "/thumbnails/StarBattleX.png",
   "thumbnailAlt": "StarBattleX Thumbnail"
 }

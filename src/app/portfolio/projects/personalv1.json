@@ -6,7 +6,7 @@
   "longDescription": "My first personal website",
   "technologies": ["React", "Netlify"],
   "githubLink": "https://github.com/maxizek30/personal-site",
-  "liveLink": "https://maxizek30.me/",
+  "liveLink": "https://maxlopezpersonalsite.netlify.app/",
   "thumbnail": "/thumbnails/PersonalSiteV1.png",
   "thumbnailAlt": "StarBattleX Thumbnail"
 }
