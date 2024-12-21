@@ -8,9 +8,10 @@ export default function Page() {
       <div className={styles.descriptionContainer}>
         <div className={styles.descriptionBar} />
         <p>
-          Hello! I'm Max Lopez, a dedicated Computer Science student at Pacific
-          Lutheran University, aspiring to become a software engineer. Beyond
-          coding, I recharge by taking long walks on the beach and playing{" "}
+          Hello! I&apos;m Max Lopez, a dedicated Computer Science student at
+          Pacific Lutheran University, aspiring to become a software engineer.
+          Beyond coding, I recharge by taking long walks on the beach and
+          playing{" "}
           <Link href="https://www.fortnite.com/" style={{ color: "#F3AF19" }}>
             Fortnite
           </Link>{" "}
@@ -21,7 +22,7 @@ export default function Page() {
           >
             Valorant
           </Link>
-          . I'm always happy to{" "}
+          . I&apos;m always happy to{" "}
           <Link href="/contact" style={{ color: "#9d4dbb" }}>
             connect
           </Link>{" "}
