@@ -1,7 +1,17 @@
 .markdownContainer {
   max-height: 100%;
   overflow-y: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.markdownContent {
+  max-height: 100%;
+  overflow-y: auto;
   line-height: 1.6;
+  width: 100%;
 }
 .markdownContainer h1,
 .markdownContainer h2,

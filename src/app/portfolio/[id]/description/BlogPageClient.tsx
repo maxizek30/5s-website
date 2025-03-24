@@ -11,7 +11,9 @@ interface BlogPageClientProps {
 export default function BlogPageClient({ content }: BlogPageClientProps) {
   return (
     <div className={styles.markdownContainer}>
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <div className={styles.markdownContent}>
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </div>
     </div>
   );
 }
