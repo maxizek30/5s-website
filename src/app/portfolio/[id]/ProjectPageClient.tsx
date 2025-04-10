@@ -52,7 +52,7 @@ export default function ProjectPageClient({ project }: { project: Project }) {
           className={`${styles.headerContainer} ${styles.bentoContainer}`}
           ref={headerContainerRef}
         >
-          <h1 style={{ fontSize: "7vw", fontWeight: 1000 }}>{project.title}</h1>
+          <h1 style={{ fontSize: "5vw", fontWeight: 1000 }}>{project.title}</h1>
         </div>
         <div className={styles.imageContainer}>
           {project.liveLink ? (

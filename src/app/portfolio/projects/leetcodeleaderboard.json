@@ -1,0 +1,12 @@
+{
+  "id": "leetcodeleaderboard",
+  "title": "Leetcode Leaderboard",
+  "isGroupProject": false,
+  "shortDescription": "A weekly leaderboard for Leetcode users",
+  "longDescription": "Leetcode Leaderboard is a platform that tracks and displays weekly rankings of Leetcode users based on their problem-solving activity. It helps users stay motivated and compete with friends.",
+  "technologies": ["React", "SpringBoot", "Docker"],
+  "githubLink": "https://github.com/maxizek30/leetcode-leaderboard",
+  "liveLink": "https://github.com/maxizek30/leetcode-leaderboard",
+  "thumbnail": "/thumbnails/leetcodeleaderboard.png",
+  "thumbnailAlt": "Leetcode Leaderboard Website Thumbnail"
+}
