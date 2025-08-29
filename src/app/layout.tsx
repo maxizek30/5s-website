@@ -52,7 +52,7 @@ export default function RootLayout({
         src="/grained.js"
         onLoad={() => {
           var options = {
-            animate: true,
+            animate: false,
             patternWidth: 100,
             patternHeight: 100,
             grainOpacity: 0.15,
