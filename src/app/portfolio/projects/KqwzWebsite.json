@@ -1,6 +1,7 @@
 {
   "id": "kqwzwebsite",
   "title": "KQWZ Website",
+  "order": 4,
   "isGroupProject": false,
   "shortDescription": "Website for One America Voice",
   "longDescription": "Website for OneAmericaVoice",

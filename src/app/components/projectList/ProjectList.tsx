@@ -5,9 +5,10 @@ interface ProjectListProps {
   projects: Project[];
 }
 const ProjectList: React.FC<ProjectListProps> = ({ projects }) => {
+  const sorted = [...projects].sort((a, b) => a.order - b.order);
   return (
     <div className={styles.projectListContainer}>
-      {projects.map((project) => (
+      {sorted.map((project) => (
         <Link
           href={`/portfolio/${project.id}`}
           key={project.id}

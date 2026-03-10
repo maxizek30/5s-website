@@ -2,6 +2,7 @@
   "id": "sandplayground",
   "title": "Sand Playground",
   "isGroupProject": false,
+  "order": 7,
   "shortDescription": "A simple sandbox for playing with sand",
   "longDescription": "A Sand Playground built using THREE.js and LilGui",
   "technologies": ["Typescript", "Three.js"],

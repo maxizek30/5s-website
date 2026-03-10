@@ -1,5 +1,6 @@
 {
   "id": "leetcodeleaderboard",
+  "order": 2,
   "title": "Leetcode Leaderboard",
   "isGroupProject": false,
   "shortDescription": "A weekly leaderboard for Leetcode users",

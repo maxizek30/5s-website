@@ -1,5 +1,6 @@
 export interface Project {
   id: string;
+  order: number;
   title: string;
   isGroupProject: boolean;
   shortDescription: string;

@@ -1,0 +1,12 @@
+{
+  "id": "gearfitness",
+  "order": 1,
+  "title": "Gear Fitness",
+  "isGroupProject": true,
+  "shortDescription": "Fitness tracking mobile app",
+  "longDescription": "Gear Fitness is a a full-stack fitness tracking solution designed to help gym-goers maintain consistency, track progress, and optimize their workout routines.",
+  "technologies": ["ReactNative", "SpringBoot", "PostgreSQL", "AWS"],
+  "githubLink": "https://github.com/gear-fitness/gear-fitness-app",
+  "thumbnail": "/thumbnails/gearfitnessthumbnail.png",
+  "thumbnailAlt": "Gear Fitness Website Thumbnail"
+}

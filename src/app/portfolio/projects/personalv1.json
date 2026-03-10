@@ -1,6 +1,7 @@
 {
   "id": "personalv1",
   "title": "Personal Site V1",
+  "order": 6,
   "isGroupProject": false,
   "shortDescription": "My first personal website",
   "longDescription": "My first personal website",
